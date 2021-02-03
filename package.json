@@ -1,17 +1,24 @@
 {
   "name": "sass",
   "version": "1.0.0",
-  "description": "",
+  "description": "ProyectoFinal",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build-css": "node-sass --include-path scss scss/styles.scss css/styles.css",
     "watch-css": "nodemon -e scss -x \"npm run build-css\""
   },
-  "author": "",
+  "author": {
+    "name": "Cristian Marcos",
+    "email": "ejemplo@ejemplo.com"
+  },
   "license": "ISC",
   "devDependencies": {
     "node-sass": "^5.0.0",
     "nodemon": "^2.0.7"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
   }
 }
