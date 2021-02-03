@@ -242,18 +242,6 @@ header > nav {
     .wrapper-aside > article .wrapper-aside > article > p {
       max-width: 600px; }
 
-/* Footer */
-footer {
-  background-color: #2beeb4;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 48px; }
-  footer > div > h2 {
-    font-size: 1.2rem;
-    padding-top: 1rem; }
-
 /* Seccion Grid */
 .grid-position {
   display: flex;
@@ -273,6 +261,19 @@ footer {
       background-image: url(../repair2.jpg);
       background-size: cover;
       margin-bottom: 1rem; }
+
+/* Footer */
+footer {
+  background-color: #486fda;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 48px; }
+  footer > div > h2 {
+    color: #47bb47;
+    font-size: 1.2rem;
+    padding-top: 1rem; }
 
 /* Map */
 .wrapper-map {
