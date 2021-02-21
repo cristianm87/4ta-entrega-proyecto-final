@@ -3,35 +3,66 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Proyecto Final</title>
+    <title>ElectroTech</title>
+    <link rel="icon" href="img/logo.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <main>
-        <header>
-            <nav>
-                <div class="container">
-                    <div class="wrapper-nav">
-                        <div class="logo"><img src="logo.png" style="width: 100%;" alt=""></div>
+    <header>
+        <nav>
+            <div class="container">
+                <div class="wrapper-nav">
+                    <a href="#"><div class="logo"><img src="img/logo.png" style="width: 100%;" alt=""><span>ElectroTech</span></div></a> 
+                    <div class="wrapper-ul-icon">
+                      <div>
                         <ul>
-                            <li><a href="index.html">Home</a></li>
-                            <li class="submenu">
-                                <span>Proyectos</span> 
-                                <ul>
-                                    <li><a href="page1-1.html">Proyecto 1</a></li>
-                                    <li><a href="page1-2.html">Proyecto 2</a></li>
-                                    <li><a href="page1-3.html">Proyecto 3</a></li>
-                                </ul>
-                            </li>
-                            <li><a class="active" href="about.html">About</a></li>
-                            <li><a href="map.html">Map</a></li>
-                            <li><a href="contact.html">Contact</a></li>
+                          <li><a href="index.html">Home</a></li>
+                          <li class="submenu">
+                              <span>Servicios</span> 
+                              <ul>
+                                  <li><a href="page1-1.html">Notebooks</a></li>
+                                  <li><a href="page1-2.html">CCTV</a></li>
+                                  <li><a href="page1-3.html">Diseño Web</a></li>
+                              </ul>
+                          </li>
+                          <li><a class="active" href="about.html">Quiénes Somos</a></li>
+                          <li><a href="contact.html">Contacto</a></li>
                         </ul>
+                      </div>
+                      <div class="wrapper-icon">
+                        <a href="https://www.facebook.com/" target="_blank"><i class="bi-facebook social-icon-1"></i></a>
+                        <a href="https://www.instagram.com/" target="_blank"><i class="bi-instagram social-icon-2"></i></a>
+                        <a href="mailto: example@example.com"><i class="bi-mailbox social-icon-3"></i></a>
+                      </div>
                     </div>
                 </div>
-            </nav>
-        </header>
-        <h1 style="text-align: center;">About</h1>
+            </div>
+        </nav>
+    </header>
+    <main class="main-about">
+        <h1>Quiénes Somos</h1>
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-8 mt-4">
+                    <div class="jumbotron">
+                        <h2 class="display-4">ElectroTech</h2>
+                        <p class="lead">En ElectroTech nos dedicamos a brindar soluciones informaticas para empresas y hogares, desde la reparacion de notebooks, instalacion de camaras de vigilancia, hasta armar tu pagina web personal, para tu negocio o empresa.</p>
+                        <hr class="my-4">
+                        <p>Tenemos más de 10 años de experiencia en el universo de la tecnología.</p>
+                        <a class="btn btn-success btn-lg" href="contact.html" role="button">Envianos tu consulta</a>
+                      </div>
+                </div>
+            </div>
+        </div>
     </main>
+    <footer>
+        <div class="container">
+           <h2>Cristian Marcos &copy; 2021</h2> 
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
 </body>
 </html>

@@ -3,35 +3,64 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Proyecto Final</title>
+    <title>ElectroTech</title>
+    <link rel="icon" href="img/logo.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <main>
-        <header>
-            <nav>
-                <div class="container">
-                    <div class="wrapper-nav">
-                        <div class="logo"><img src="logo.png" style="width: 100%;" alt=""></div>
+    <header>
+        <nav>
+            <div class="container">
+                <div class="wrapper-nav">
+                    <a href="#"><div class="logo"><img src="img/logo.png" style="width: 100%;" alt=""><span>ElectroTech</span></div></a> 
+                    <div class="wrapper-ul-icon">
+                      <div>
                         <ul>
-                            <li><a href="index.html">Home</a></li>
-                            <li class="submenu">
-                                <span>Proyectos</span> 
-                                <ul>
-                                    <li><a href="page1-1.html">Proyecto 1</a></li>
-                                    <li><a  href="page1-2.html">Proyecto 2</a></li>
-                                    <li><a class="active" href="page1-3.html">Proyecto 3</a></li>
-                                </ul>
-                            </li>
-                            <li><a href="about.html">About</a></li>
-                            <li><a href="map.html">Map</a></li>
-                            <li><a href="contact.html">Contact</a></li>
+                          <li><a href="index.html">Home</a></li>
+                          <li class="submenu">
+                              <span>Servicios</span> 
+                              <ul>
+                                  <li><a href="page1-1.html">Notebooks</a></li>
+                                  <li><a href="page1-2.html">CCTV</a></li>
+                                  <li><a class="active" href="page1-3.html">Diseño Web</a></li>
+                              </ul>
+                          </li>
+                          <li><a href="about.html">Quiénes Somos</a></li>
+                          <li><a href="contact.html">Contacto</a></li>
                         </ul>
+                      </div>
+                      <div class="wrapper-icon">
+                        <a href="https://www.facebook.com/" target="_blank"><i class="bi-facebook social-icon-1"></i></a>
+                        <a href="https://www.instagram.com/" target="_blank"><i class="bi-instagram social-icon-2"></i></a>
+                        <a href="mailto: example@example.com"><i class="bi-mailbox social-icon-3"></i></a>
+                      </div>
                     </div>
                 </div>
-            </nav>
-        </header>
-        <h1 style="text-align: center;">Proyecto 3</h1>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <h1>Diseño Web</h1>
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-8 m-3">
+                    <div class="card text-center mb-3 card-web-dev text-white">
+                        <div class="card-body">
+                            <h5 class="card-title">Diseñamos tu Pagina Web a Medida.</h5>
+                            <p class="card-text m-3">Dejale el trabajo a los que mas saben. Usamos las ultimas tecnologias disponible para diseñar tu pagina web, dandole dinamismo, velocidad y una buena visual sin importar en que dispositivo se vea.</p>
+                            <img src="img/webdev.png" class="card-img-bottom" alt="diseño web">
+                            <a class="btn btn-success btn-lg m-3" href="contact.html" role="button">Envianos tu consulta</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </main>
+    <footer>
+        <div class="container">
+           <h2>Cristian Marcos &copy; 2021</h2> 
+        </div>
+    </footer>
 </body>
 </html>
