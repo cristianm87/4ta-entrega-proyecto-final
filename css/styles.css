@@ -9,7 +9,6 @@
 
 :root {
   font-size: 14px;
-  color: #f0f0f0;
 }
 
 body {
@@ -18,6 +17,7 @@ body {
   position: relative;
   min-height: 100vh;
   width: 100%;
+  color: #f0f0f0;
   background: url("../img/bg.jpeg") center;
   background-size: contain;
   background-attachment: fixed;
@@ -33,10 +33,6 @@ body .container {
   margin: auto;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  color: #f0f0f0;
-}
-
 h1 {
   font-family: 'Open Sans', sans-serif;
   font-size: 2rem;
@@ -44,9 +40,28 @@ h1 {
   text-align: center;
 }
 
+h2 {
+  font-size: 1.8rem;
+}
+
+h3 {
+  font-size: 1.6rem;
+}
+
+h4 {
+  font-size: 1.4rem;
+}
+
+h5 {
+  font-size: 1.2rem;
+}
+
+h6 {
+  font-size: 1rem;
+}
+
 p {
   font-size: 1.1rem;
-  color: #f0f0f0;
 }
 
 /* Nav Bar */
@@ -288,6 +303,10 @@ header > nav .wrapper-nav > div > div > ul > li li > a, header > nav .wrapper-na
   max-height: 500px;
 }
 
+.carousel-item .carousel-title {
+  font-size: 1.4rem;
+}
+
 /* Grid */
 .grid-layout {
   margin-top: 1rem;
@@ -413,7 +432,6 @@ header > nav .wrapper-nav > div > div > ul > li li > a, header > nav .wrapper-na
 
 .grid-layout .grid-area-1 > div > h2 {
   padding: 2rem 1rem 0 1rem;
-  font-size: 1.8rem;
 }
 
 .grid-layout .grid-area-2 {
@@ -508,6 +526,10 @@ header > nav .wrapper-nav > div > div > ul > li li > a, header > nav .wrapper-na
   overflow: hidden;
 }
 
+.grid-layout h3 {
+  font-size: 1.4rem;
+}
+
 /* Footer */
 footer {
   background: -webkit-gradient(linear, left top, right top, from(#097180), color-stop(50%, #1055a7), to(#03306a));
@@ -519,8 +541,7 @@ footer {
   height: 48px;
 }
 
-footer > div > h2 {
-  font-size: 1.2rem;
+footer > div > p {
   padding-top: 1rem;
 }
 
@@ -552,6 +573,11 @@ iframe {
 .my-card-deck-cam > .my-card {
   background-color: #02030438;
   text-align: center;
+}
+
+.my-card-deck-lp > .my-card h2,
+.my-card-deck-cam > .my-card h2 {
+  font-size: 1.3rem;
 }
 
 .my-card-deck-cam > .my-card > img {
@@ -600,5 +626,9 @@ iframe {
 /* Diseño Web */
 .card-web-dev {
   background-color: inherit;
+}
+
+.card-web-dev h2 {
+  font-size: 1.6rem;
 }
 /*# sourceMappingURL=styles.css.map */
