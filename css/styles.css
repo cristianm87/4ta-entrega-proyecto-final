@@ -580,6 +580,7 @@ iframe {
   font-size: 1.3rem;
 }
 
+/*Camaras Animation*/
 .my-card-deck-cam > .my-card > img {
   -webkit-animation: animation-card 7s .5s ease-in-out both 3;
   animation: animation-card 7s .5s ease-in-out both 3s;
